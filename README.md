@@ -4,6 +4,8 @@ A simple yet elegant **Landing Page** built using **HTML** and **CSS**, designed
 
 This page showcases a responsive, visually appealing layout with a header, hero section, info cards, quote section, and a call-to-action — perfect for practicing core front-end skills.
 
+**🔗 Live Demo:** [Click here to view](https://tharungopinath.github.io/landing-page/)
+
 ## ✨ Features
 
 - **Clean & Minimal Design** – Focuses on content and readability.
