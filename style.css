@@ -38,9 +38,9 @@ body {
 .first-right {
     display: flex;
     flex: 0, 0, 0;
-    height: 200px;
-    width: 400px;
-    background-color:rgb(117, 125, 133);
+    height: 250px;
+    width: 500px;
+    background-color:#757d85;
     justify-content: center;
     align-items: center;
     color: #e5e7eb;
@@ -61,7 +61,7 @@ body {
 .hero-secondary {
     font-size: 18px;
     color: #e5e7eb;
-    padding: 10px 0px;
+    padding: 15px 0px;
 }
 
 .sign-up {
@@ -72,4 +72,70 @@ body {
   color: white;
   max-width: 150px;
   font-size: 18px;
+}
+
+.second-title {
+    display: flex;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+.secondary-pic {
+    height: 150px;
+    width: 150px;
+    border-color: #3882f6;
+    border-width: 5px;
+    border-radius: 20px;
+    border-style: solid;
+}
+
+.second-info {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: #41484e;
+    padding-bottom: 80px;
+}
+
+.subinfo-one, .subinfo-two, .subinfo-three, .subinfo-four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 250px;
+}
+
+.secondary-subtext {
+    padding: 15px 0px;
+}
+
+.quote-section {
+    padding: 125px;
+}
+
+.quote {
+    display: flex;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #41484e;
+    max-width: 1000px;
+}
+
+.speaker {
+    color: #1f2937;
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 20px;
+    text-align: end;
+}
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
 }
