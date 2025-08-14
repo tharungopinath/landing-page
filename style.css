@@ -28,11 +28,10 @@ body {
 
 .first-main {
     display: flex;
-    flex-wrap: wrap;
     gap: 50px;
     justify-content: space-evenly;
     background-color: #1f2937;
-    padding: 100px 0px;
+    padding: 100px 50px;
 }
 
 .first-right {
@@ -49,7 +48,8 @@ body {
 .first-left {
     display: flex;
     flex-direction: column;
-    max-width: 500px;
+    justify-content: space-evenly;
+    height: 250px;
 }
 
 .hero-main {
@@ -113,17 +113,11 @@ body {
     padding: 15px 0px;
 }
 
-.quote-section {
-    padding: 125px;
-}
-
 .quote {
-    display: flex;
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
     color: #41484e;
-    max-width: 1000px;
 }
 
 .speaker {
@@ -138,4 +132,53 @@ body {
     display: flex;
     justify-content: center;
     background-color: #e5e7eb;
+    padding: 125px;
 }
+
+.call-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.call-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #f9faf8;
+}
+
+.call-subinfo {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.call-section {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    padding: 50px 100px;
+    margin: 125px 200px;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+.call-right {
+    padding: 8px 40px;
+    border-radius: 8px;
+    background: #3882f6;
+    border: 3px solid #ffffff;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 30px;
+}
+
